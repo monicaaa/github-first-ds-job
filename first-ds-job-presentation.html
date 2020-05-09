@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+  <head>
+    <title>Tips on using Github to land your first data science job</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Monica King, PhD" />
+    <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
+    <link href="libs/remark-css-0.0.1/default-fonts.css" rel="stylesheet" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Tips on using Github to land your first data science job
+### Monica King, PhD
+### 6/18/2019
+
+---
+
+
+
+
+## What is git?
+
+--
+
+**Git** is a version control system that tracks and archives changes to your file (code)
+
+&lt;img src="git.png" width="600px" style="display: block; margin: auto;" /&gt;
+
+Source: https://swcarpentry.github.io/git-novice/
+
+--
+
+Advantages of using git:
+
+--
+
+ - All versions of code are saved, allowing you to go back in time and use an older version
+ 
+--
+
+ - Prevents you from overwriting other people's changes when you're collaborating together
+
+---
+
+## What is Github? 
+
+--
+
+**Github** is a service that hosts projects (called repositories or "repos") using git
+
+--
+
+&lt;img src="repos.png" width="300px" style="display: block; margin: auto;" /&gt;
+
+--
+
+Advantages of using Github as your portfolio:
+
+--
+
+ - It's very popular
+ 
+--
+
+ - It's free (for most uses)
+ 
+--
+
+ - It's accessible -- public repos allow anyone (hiring managers!) to see your project and its history
+ 
+--
+
+*Ideally you should use Github from the beginning, but you can also put up existing code after a project has started or completed
+*
+---
+
+## Misconceptions of using Github to build your portfolio
+
+--
+
+**Myth #1:** I should use GitHub to demonstrate that I know really fancy stuff
+
+--
+
+**Reality:** 
+
+--
+- Not all data science problems require fancy solutions
+
+--
+
+- Even those that do require fancy stuff begin with data exploration and descriptive analysis
+
+--
+
+- Hiring managers sometimes just want to make sure you meet basic requirements
+
+--
+ - “I looked at your Github and you seem to know what you’re doing” - Interviewer
+
+---
+## Misconceptions of using Github to build your portfolio (continued)
+
+--
+
+**Myth #2:** I can plop my code in a Github repo and call it a day.
+
+--
+
+**Reality:** 
+
+--
+
+- Hiring managers want to make sure you care about writing code that is reproducible and readable ("Opinionated analysis development" by Hilary Parker, 2017)
+
+--
+
+- Those are signs that you can thrive in a collaborative environment
+
+--
+
+- Interviewer's email instructions on technical assessment: 
+&lt;img src="email.png" width="700px" style="display: block; margin: auto;" /&gt;
+
+---
+
+## What skills can you demonstrate with Github?
+--
+
+In addition to coding...
+- Ability to translate a (business) problem/question into a data science problem
+
+--
+
+ - I did this by describing my PhD work in simple and relevant terms
+
+--
+
+- Curiousity and willingness to learn
+
+--
+
+ - I did this by recreating a figure from my PhD research in Shiny as a proof of concept
+
+---
+
+## Example: My simple Shiny app
+
+&lt;img src="shiny.png" width="700px" style="display: block; margin: auto;" /&gt;
+
+---
+## What skills can you demonstrate with Github?
+
+In addition to coding...
+
+- Ability to translate a (business) problem/question into a data science problem
+
+ - I did this by describing my PhD work in simple and relevant terms
+
+- Curiousity and willingness to learn
+
+ - I did this by recreating a figure from my PhD research in Shiny as a proof of concept
+
+--
+
+- Signs that you can work with people
+
+--
+
+ - I did this by making sure my code was well-documented and readable to someone seeing it for the first time
+
+---
+
+## Tips on using Github to showcase your data science skills
+
+--
+
+Tip 1: Pick small, simple self-contained projects over “more impressive,” disjointed ones
+
+--
+
+ - At a minimum, it should run and produce some output
+ 
+--
+
+ - Instead of the entire dissertation, I put up code and analysis from a slice of my dissertation and make sure it worked
+
+--
+
+ - Quality over quantity!
+ 
+---
+
+## Tips on using Github to showcase your data science skills
+
+--
+
+Tip 2: Write a comprehensive README file
+
+--
+
+&lt;img src="readme.png" width="100px" style="display: block; margin: auto;" /&gt;
+
+--
+ - Include sections on project description, dependencies (data, environment, libraries/packages), instructions on how to install/run code
+
+--
+
+ - Wisdom from a conference: "If a new person were to use your repo for the first time, how many questions would they need to ask you?" Get this down to zero.
+ 
+---
+
+## Example of a project without a README
+
+--
+
+&lt;img src="readme_none.png" width="580px" style="display: block; margin: auto;" /&gt;
+
+source: "A Beginners Guide to writing a Kickass README" by Akash Nimare: https://medium.com/@meakaakka/a-beginners-guide-to-writing-a-kickass-readme-7ac01da88ab3
+---
+
+## Example of the README for my Shiny app
+
+--
+
+&lt;img src="readme_shiny.png" width="580px" style="display: block; margin: auto;" /&gt;
+
+---
+
+## Tips on using Github to showcase your data science skills
+
+--
+
+Tip 3: Clean up your code and organize your files 
+
+--
+
+ - use a code linter (e.g. *styler* package in R)
+
+--
+
+ - follow standard code style guide (e.g. tidyverse style guide for R)
+ 
+--
+
+ - make your code readable and workflow as intuitive as possible 
+
+--
+
+Tiffany Timbers has a good presentation on data science workflows: "When should you add Github, Make and Docker to your data science workflow?"
+
+---
+
+layout: false
+class: inverse, middle, center
+
+# Thank you! 
+## Monica King
+## himonicaking@gmail.com
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();</script>
+
+<script>
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
